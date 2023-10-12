@@ -20,6 +20,13 @@ html {
     margin:40px auto;
   }
   
+  .img-right{
+    float:right;
+    margin:10px 0 10px 20px;
+    border:1px solid #000000;
+    padding:5px;
+    box-shadow: 4px 4px 2px rgba)0,0,0,rgba(0,0,0,.4);
+  }
   /*  ---------------Global Styles-----------------  */
   body{
       background-color:white;
@@ -134,12 +141,44 @@ html {
     border:1px solid #000000
   }
   
+  #practice h2{
+    color:#000000;
+    border-bottom:1px solid #c0c0c0;
+  }
   aside[role="complementary"]{
-    background-color:#F474C3;
-    color:#F474C3
+    background-color:#b24587;
+    color:#ffffff
+  }
+   aside .container{
+    display:flex;
+    flex-direction:row;
+    gap:40px;
+   }
+  aside .container a:last-of-type{
+    color:aliceblue;
+    display:block;
+    text-align:right;
+    font-size:1rem;
+    margin-top:2px;
+  }
+
+  aside footer{
+    display:none
   }
   
-  
+  #colophon{
+    background-color: #ffffff;
+    padding:10px;
+    color:#000000;
+    text-align:center;
+  }
+
+
+
+
+
+
+
   
   
   
@@ -155,4 +194,13 @@ html {
     header.primary nav ul a{
       display:block;
     }
+    
+    #content{
+      flex-direction:column;
+    }
+    #content img{
+      margin:auto;
+    
+    }
+
 }
