@@ -1,0 +1,379 @@
+body{
+ font-family: 'Bebas Neue', sans-serif;
+font-family: 'IBM Plex Mono', monospace;
+     background-color: #f5f5f5;
+     margin: 5px;
+     padding:5px;
+   }
+   header.primary {
+    background-color: #babfbb;
+    color: #000000;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 15px;
+  }
+   header.primary h1 {
+     font-size:2.4rem;
+     margin: 20px 0 10px;
+   }
+   header.primary img{
+    max-width: 60%;
+    max-height: 20%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+   
+   header.primary h1 a{
+     color:#ffffff;
+     display:block;
+     width:460px;
+     height:70px;
+     margin :0 auto;
+     text-indent:100%;
+     white-space:nowrap;
+     overflow:hidden;
+   }
+   
+   header.primary h2{
+     font-size:1.4rem;
+     margin:0;
+   }
+   
+   header.primary nav{
+     max-width:500px;
+     margin:10px auto;
+   }
+    
+   header.primary nav ul{
+     display:flex;
+     flex-direction:row;
+     justify-content:space-around;
+     padding:0;
+   }
+   
+   header.primary nav ul li{
+     list-style-type:none;
+   }
+   
+   header.primary nav ul li a{
+     color:#ffffff;
+     text-decoration:none;
+     background-color:#375694;
+     padding: 5px 10px;
+     border:1px #1100ff;
+     border-radius:20px;
+     transition:3s;
+   }
+   
+   header.primary nav ul li a:hover{
+     background-color:#ffffff(0,0,0,.8);
+   }
+   
+   #intro{
+     border:2px solid #ffffff;
+     padding-bottom:14px;
+   }
+   
+   
+   #content{
+     display:flex;
+     flex-direction:row;
+     gap:20px;
+   }
+   
+   #content .post{
+    box-shadow:0 4px 8px rgba(0,0,0,.4);
+     padding:10px;
+     border-radius:4px;
+     font-size:.8rem;
+     transition:0.5s;
+     
+   }
+   
+   article.post figure{
+     margin:0;
+   }
+   
+   article.post time.post-date, article.post figcaption, article.post .post-meta{
+     
+     text-transform:uppercase;
+     color:#000000;
+    
+   }
+   
+   article.post a{
+     color:#1100ff;
+   }
+   
+   article.post a:hover{
+     text-decoration:none;
+   }
+   
+   article.post img{
+    max-width: 40%;
+     max-height: 40%;
+     border:1px solid #000000
+   }
+   
+
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+   
+   /*  ---------------Media Queries-----------------  */
+   @media screen and (max-width:600px){
+     
+     header.primary nav ul {
+       flex-direction:column;
+       max-width:250px;
+       margin:auto;
+       gap:10px;
+     }
+     header.primary nav ul a{
+       display:block;
+     }
+     
+     #content{
+       flex-direction:column;
+     }
+     #content img{
+       margin:auto;
+     
+     }
+ header.primary{
+   color:#ffffff;
+     text-shadow: 1px 1px 20px#000000;
+     text-align:center;
+     padding:40px;
+     /*long form*/
+     padding-top:40px;
+     padding-right:40px;
+     padding-bottom:40px;
+     padding-left:40px;
+     /*T,R,B,L*/
+     padding:20px 40px 20px 40px;
+     /*Two Value Top/Bottom/ L/R*/
+     padding: 20px 40px;
+   }
+   header.primary h1 {
+     font-size:2.4rem;
+     margin: 20px 0 10px;
+   }
+   
+   header.primary h1 a{
+     color:#000000;
+     text-decoration:none;
+   }
+   
+   header.primary h2{
+     font-size:1.4rem;
+     margin:0;
+   }
+   
+   header.primary nav{
+     max-width:900px;
+     margin:20px auto;
+   }
+   
+   header.primary nav ul{
+     display:flex;
+     flex-direction:row;
+     justify-content:space-around;
+     padding:0;
+   }
+   
+   header.primary nav ul li{
+     list-style-type:none;
+   }
+   
+   header.primary nav ul li a{
+     color:#08144f;
+     text-decoration:none;
+     background-color:#08144f;
+     padding: 5px 10px;
+     border:1px dashed #000000;
+     border-radius:20px;
+     transition:3s;
+   }
+   
+   header.primary nav ul li a:hover{
+     background-color:rgba(0,0,0,.8);
+   }
+   
+   #intro{
+     border:2px solid #ffffff;
+     padding-bottom:14px;
+   }
+   
+   #intro h2{
+     border:2px solid #000000;
+   }
+   
+   #content{
+     display:flex;
+     flex-direction:row;
+     gap:20px;
+   }
+   
+   #content .post{
+     box-shadow:0 4px 8px rgba(0,0,0,.4);
+     padding:10px;
+     border-radius:4px;
+     font-size:.8rem;
+     transition:0.5s;
+     
+   }
+   
+   article.post figure{
+     margin:0;
+   }
+   
+   article.post time.post-date, article.post figcaption, article.post .post-meta{
+     
+     text-transform:uppercase;
+     color:#000000
+   }
+   
+   article.post a{
+     color:#0051ff
+   }
+   
+   article.post a:hover{
+     text-decoration:none;
+   }
+   
+   article.post img{
+     border:1px solid #000000
+   }
+   
+   #practice h2{
+     color:#000000;
+     border-bottom:1px solid #c0c0c0;
+   }
+ 
+ table {
+   border:1px solid #000000;
+   width:100%;
+   border-collapse:collapse;
+   margin:20px 0;
+ }
+ 
+ caption{
+   font-weight:bold;
+   margin:10px; 
+ }
+ tr:nth-child(even) {
+   background-color: rgba(0,0,0,0.1)
+ }
+ td:nth-child(2), td:nth-child(3){
+   text-align:right;
+   width:33%;
+ }
+ tr:hover{
+   background-color: #bc2acf;
+ }
+ th{
+   background-color:#b24587;
+   color:#c0c0c0;
+   padding:10px;
+   
+ }
+ td{
+   border:1px solid #501036;
+   padding:5px; width:auto;
+ }
+ 
+ #practice ul{
+   clear:both;
+   list-style-type:upper-roman;
+ }
+ dl{
+   width:50%;
+   background:#000000;
+ }
+ dt{
+   font-weight:bold;
+ }
+ dd+dt{
+   margin-top:20px;
+ }
+ dd{
+   margin:0;
+ }
+ 
+
+ 
+ 
+ #practicle ul ul{
+   list-style-type:"\1F44D";
+ }
+ 
+ 
+   aside[role="complementary"]{
+     background-color:#b24587;
+     color:#ffffff
+   }
+    aside .container{
+     display:flex;
+     flex-direction:row;
+     gap:40px;
+    }
+   aside .container a:last-of-type{
+     color:aliceblue;
+     display:block;
+     text-align:right;
+     font-size:1rem;
+     margin-top:2px;
+   }
+ 
+   aside footer{
+     display:none
+   }
+   
+   #colophon{
+     background-color: #ffffff;
+     padding:10px;
+     color:#000000;
+     text-align:center;
+   }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+   
+   
+   /*  ---------------Media Queries-----------------  */
+   @media screen and (max-width:600px){
+     
+     header.primary nav ul {
+       flex-direction:column;
+       max-width:250px;
+       margin:auto;
+       gap:10px;
+     }
+     header.primary nav ul a{
+       display:block;
+     }
+     
+     #content{
+       flex-direction:column;
+     }
+     #content img{
+       margin:auto;
+     
+     }
+ 
+ }}
