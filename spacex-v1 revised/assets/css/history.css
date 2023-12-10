@@ -9,7 +9,7 @@ font-family: 'IBM Plex Mono', monospace;
    }
 
    header.primary {
-     background-color: #929292;
+     background-color: #595959;
      color: #000000;
      text-align: center;
      padding: 1em 0;
@@ -47,4 +47,6 @@ font-family: 'IBM Plex Mono', monospace;
    .answer {
      margin-top: 10px;
    }
- 
+   table, th, td {
+    border: .5px solid;
+  }
